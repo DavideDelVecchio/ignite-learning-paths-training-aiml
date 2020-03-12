@@ -249,6 +249,12 @@ END
     }
 
     $Count++
-} while ((-not $Success) -and ($Count -le 5))
+} while ((-not $Success) -and ($Count -le 10))
 
-Write-Host "You are ready to go"
+if (-not $Success) {
+    throw "You may need to manually add a wrench record.  This script could not connect to the target database."
+}
+else {
+    Write-Host "You are ready to go"
+}
+
