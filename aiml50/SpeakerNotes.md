@@ -184,6 +184,7 @@
 
 * Slide: # 45
   * Of course, if we change our code, we also want to change our training pipeline, which is what we saw today.
+  * Example of a comment
 
 * Slide: # 46
   * Importantly, this is just an example – we’re deploying our model to containers, but maybe we want to embed the models into our software
