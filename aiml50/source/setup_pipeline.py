@@ -63,8 +63,8 @@ for opt, arg in opts:
 
 print("Azure ML SDK Version: ", VERSION)
 
-#### Connessione al workspace Azure ML ####
-###########################################
+#### Connessione al workspace Azure ML Service ####
+###################################################
 
 # workspace
 ws = Workspace.get( name=workspace_name, 
